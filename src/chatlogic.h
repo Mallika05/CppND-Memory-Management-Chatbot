@@ -19,7 +19,7 @@ private:
 
     // data handles (owned)
     std::vector<std::unique_ptr<GraphNode>> _nodes; // converted vector of raw pointers to vector of unique pointers
-    std::vector<GraphEdge *> _edges;
+   // std::vector<GraphEdge *> _edges; // vector edges turned obsolete
 
     ////
     //// EOF STUDENT CODE
